@@ -1,5 +1,5 @@
 :root{
-  --bg-url: url("images/Empty.png");
+  --bg-url: url("../images/Empty.png");
   --primary: rgba(60, 140, 119, 1);
   --secondary: rgba();
   --tertiary: rgba();

@@ -1,15 +1,16 @@
-
+@import url("global.css");
 
 .sidebar {
-  position: relative;
+  position:fixed;
+  background-color: var(--bg-color);
   display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  gap: 10px 10px;
+  flex-direction: row;
+  justify-content: center;
+  gap: 20px;
   height: 100%;
-  width: 100%;
-  flex-wrap: wrap-reverse;
-  align-content: flex-start;
+  width: 100px;
+  flex-wrap: wrap;
+  align-content:flex-start;
 }
 .sidebar-item {
   min-width: 50px;

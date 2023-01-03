@@ -1,7 +1,10 @@
+@import url("global.css");
 body {
   background-color: var(--bg-color);
+  color:white;
   margin: 0;
   font-family: Verdana;
+  min-width: 600px;
 }
 .test {
   border: 0px solid red;

@@ -1,0 +1,50 @@
+@import url("base.css");
+
+.flex-blog-container{
+  margin:20px;
+  display:flex;
+  gap: 20px;
+  align-content: center;
+  justify-content:center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  overflow-y: auto;
+  min-width: 200px;
+}
+.flex-blog-element{
+  overflow: hidden;
+  position:relative;
+  /* border: 1px solid red; */
+  width:auto;
+}
+
+.flex-blog-element p{
+  text-align:left;
+  font-size: 20px;
+  line-height: 1.5;
+}
+.flex-blog-element h1{
+  text-align:left;
+  font-size: 50px;
+  /* line-height: 1.5; */
+  text-transform: uppercase;
+  margin: 0;
+}
+.flex-blog-element h1::first-letter{
+  font-size: 60px;
+}
+
+.text-card{
+  padding:5px 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 5px black;
+  background-color: rgba(200,133,2,0.7);
+}
+
+.blog-image{
+  align-self: center;
+  width:600px ;
+}
+.blog-image img{
+  width:inherit;
+}
