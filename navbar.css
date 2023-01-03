@@ -1,0 +1,13 @@
+@import url("global.css");
+.navbar {
+  background-color: var(--bg-color);
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px;
+  height: 100%;
+  width: auto;
+  flex-wrap: nowrap;
+  align-items: flex-start;
+}

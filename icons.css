@@ -1,0 +1,54 @@
+@import url("global.css");
+
+.icon-1{
+  background-image :url("images/libasic1.png");
+}
+.icon-1:hover{
+  background-image :url("images/lihigh1.png");
+}
+.icon-2{
+  background-image :url("images/gitbasic1.png");
+}
+.icon-2:hover{
+  background-image :url("images/githigh1.png");
+}
+
+.navbar-icon{
+  width: var(--navbar-icon-size);
+  height: var(--navbar-icon-size);
+  background-size: cover;
+  display: inline-block;
+}
+.navbar-home{
+  background-image :url("images/HomeBase.png");
+  transition: background-image 0.2s, width 0.2s;
+}
+.navbar-home:hover{
+  background-image :url("images/HomeHigh.png");
+}
+
+.navbar-project{
+  background-image :url("images/ProjectBase.png");
+  transition: background-image 0.2s, width 0.2s;
+}
+.navbar-project:hover{
+  background-image :url("images/ProjectHigh.png");
+  width:75px;
+}
+
+.navbar-art{
+  background-image :url("images/ArtBase.png");
+  transition: background-image 0.2s, width 0.2s;
+}
+.navbar-art:hover{
+  background-image :url("images/ArtHigh.png");
+}
+
+.navbar-misc{
+  background-image :url("images/MiscBase.png");
+  transition: background-image 0.2s, width 0.2s;
+}
+.navbar-misc:hover{
+  background-image :url("images/MiscHigh.png");
+  width:120px;
+}

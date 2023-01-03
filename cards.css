@@ -1,0 +1,56 @@
+@import url("global.css");
+
+:root{
+  --bg-1: url("images/test1.jpg");
+  --card-w: 400px;
+  --card-h: 200px;
+}
+
+.flex-container{
+  margin:20px;
+  display:flex;
+  gap: 20px;
+  align-items: center;
+  justify-content:center;
+  flex-wrap: wrap;
+}
+.flex-card-container{
+  display: block;
+  width: var(--card-w);
+  height: var(--card-h);
+  position: relative;
+  z-index: 10;
+  border: 1px inset red;
+}
+.flex-card{
+  margin:auto;
+  width: var(--card-w);
+  height: var(--card-h);
+  display: block;
+  position: absolute;
+
+  /* clip-path: polygon(12% 0, 100% 0, 100% 87%, 88% 100%, 0 100%, 0 11%); */
+  transition: box-shadow 0.1s ease-in-out;
+
+  background-image: url("images/bg1.png");
+  background-size: cover;
+}
+.flex-card-container:hover{
+  box-shadow: -2px -2px 5px black;
+}
+.flex-card-content{
+  /* display:block; */
+  position: absolute;
+  color:white;
+  font-size: 35px;
+  bottom:0px;
+  margin: 15px;
+  max-width: 80%;
+  user-select: none;
+  pointer-events: none;
+}
+
+.card-1{
+  /* background-image: var(--bg-1);
+  background-size: cover; */
+}

@@ -1,0 +1,26 @@
+
+
+.sidebar {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: 10px 10px;
+  height: 100%;
+  width: 100%;
+  flex-wrap: wrap-reverse;
+  align-content: flex-start;
+}
+.sidebar-item {
+  min-width: 50px;
+  min-height: 50px;
+  max-width: 50px;
+  max-height: 50px;
+  padding: auto;
+  text-align: center;
+  transition: background-image 0.15s;
+  transition-timing-function: ease-in-out;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: auto 100%;
+}

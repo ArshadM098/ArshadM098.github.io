@@ -1,0 +1,11 @@
+:root{
+  --bg-url: url("images/Empty.png");
+  --primary: rgba(60, 140, 119, 1);
+  --secondary: rgba();
+  --tertiary: rgba();
+  --bg-color: rgba(20, 20, 20, 1);
+  --highlight: rgba();
+
+
+  --navbar-icon-size: 50px;
+}

@@ -1,0 +1,8 @@
+body {
+  background-color: var(--bg-color);
+  margin: 0;
+  font-family: Verdana;
+}
+.test {
+  border: 0px solid red;
+}
