@@ -10,6 +10,7 @@
   flex-wrap: wrap;
   overflow-y: auto;
   min-width: 200px;
+  background-color: none;
 }
 .flex-blog-element{
   overflow: hidden;
@@ -33,18 +34,50 @@
 .flex-blog-element h1::first-letter{
   font-size: 60px;
 }
-
+.flex-blog-element topic{
+  display: block;
+  margin:5px 20px;
+  font-size: 100px;
+}
+.neo{
+  margin:50px;
+  border-radius: 10px;
+  background: linear-gradient(145deg, #191919, #151515);
+  box-shadow:  10px 10px 20px #090909,
+             -10px -10px 20px #252525;
+}
+.flex-blog-element abstract{
+  display: block;
+  font-size: 30px;
+  line-height: 2;
+}
 .text-card{
   padding:5px 20px;
-  border-radius: 5px;
-  box-shadow: 1px 1px 5px black;
   background-color: rgba(200,133,2,0.7);
+  border-radius: 5px;
+  background: #171717;
+  box-shadow: inset 41px 41px 82px #090909,
+            inset -41px -41px 82px #252525;
 }
+
+.nested-flex-container{
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap:20px;
+  width:100%;
+}
+.f1{
+  flex-grow: 1;
+}
+
+
 
 .blog-image{
   align-self: center;
-  width:600px ;
+  max-width:600px ;
 }
 .blog-image img{
-  width:inherit;
+  max-width:inherit;
 }

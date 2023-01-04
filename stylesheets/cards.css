@@ -30,7 +30,7 @@
   /* clip-path: polygon(12% 0, 100% 0, 100% 87%, 88% 100%, 0 100%, 0 11%); */
   transition: filter 0.25s ease-in-out;
   /* z-index */
-  background-color: var(--primary);
+  /* background-color: var(--primary); */
   background-image: url("../images/Artwork1.png");
   /* background-image: url("images/bg1.png"); */
   background-size: cover;
